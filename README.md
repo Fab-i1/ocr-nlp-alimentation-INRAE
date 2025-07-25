@@ -15,3 +15,5 @@ Script `extract_text.py` permettant d'extraire du texte depuis une image d'alime
 ```bash
 pip install pillow pytesseract
 ```
+
+nouvelle essai
