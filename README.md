@@ -1,11 +1,17 @@
-# OCR + NLP pour l'alimentation (projet personnel)
+# Formation OCR & NLP - INRAE
 
-Projet de formation personnel inspiré d'une offre INRAE visant à :
-- Extraire des informations depuis des tickets de caisse (PDF/images)
-- Identifier les produits alimentaires
-- Les associer à des bases nutritionnelles (OpenFoodFacts, Ciqual)
-- Calculer des indicateurs (Nutri-Score, etc.)
-- Automatiser tout via un pipeline Python
+## Semaine 1 – OCR sur image (PNG)
 
-📅 Formation suivie sur 12 semaines (juillet-octobre 2025).
-📁 Chaque dossier correspond à une étape de la progression.
+Script `extract_text.py` permettant d'extraire du texte depuis une image d'aliment (type étiquette) à l'aide de Tesseract OCR.
+
+### Prérequis
+
+- Python 3.9+
+- Tesseract installé localement
+- Fichier `fra.traineddata` à placer dans `semaine_01_ocr_pdf/tessdata/`
+
+### Installation des dépendances
+
+```bash
+pip install pillow pytesseract
+```
