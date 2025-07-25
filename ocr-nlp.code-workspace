@@ -1,0 +1,33 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      // Interpréteur Python (ajustable selon ton env)
+      "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+      
+      // Nettoyage de l'explorateur
+      "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.DS_Store": true
+      },
+  
+      // Linting + format
+      "python.linting.enabled": true,
+      "python.linting.pylintEnabled": true,
+      "editor.formatOnSave": true
+    },
+    "extensions": {
+      "recommendations": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+  
