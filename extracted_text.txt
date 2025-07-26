@@ -1,0 +1,19 @@
+Address Lorem lpsum 8/24
+Dote:
+
+Manager Lorem Ipsum
+Description Price
+Orange Juice s215
+Apples 33.50
+Tomato s240
+Fish s699
+Beef s1000
+Onion s125
+Cheese 3340
+Tax
+
+TOTAL s29.69
+
+THANK YOU
+
+123456778963578021

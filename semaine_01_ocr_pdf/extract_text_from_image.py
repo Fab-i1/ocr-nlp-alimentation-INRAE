@@ -13,7 +13,7 @@ print("Contenu du dossier tessdata:", os.listdir(tessdata_path))
 os.environ["TESSDATA_PREFIX"] = tessdata_path
 
 
-image_path = r"C:\Users\fab\Pictures\INRAE\ticket_de_caisse.jpg"
+image_path = os.path.join(os.path.dirname(__file__), "ticket_de_caisse.jpg")
 
 # Image test
 image = Image.open(image_path)
@@ -21,3 +21,6 @@ image = Image.open(image_path)
 # OCR
 text = pytesseract.image_to_string(image, lang="fra")
 print(text)
+
+with open("extracted_text.txt", "w", encoding="utf-8") as f:
+    f.write(text)
