@@ -1,4 +1,4 @@
-# Formation OCR & NLP - INRAE
+# Formation OCR & NLP
 
 ### Semaine 1
 
