@@ -35,6 +35,9 @@ Dédiée à la normalisation et au nettoyage des textes extraits via OCR.
 ### Fichiers :
 
 - `semaine_02_preprocessing/clean_text.py` : script principal de nettoyage textuel
+  -utilisation des 2 fichiers générés semaine_01 :
+  --> extract_text.txt (généré depuis une image)
+  --> extract_text_from_pdf (transformation pdf-->image puis traitement)
 
 ### Lancement :
 
