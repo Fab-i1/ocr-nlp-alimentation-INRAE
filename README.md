@@ -1,8 +1,8 @@
 # Formation OCR & NLP
 
-### SEMAINE 1
+## SEMAINE 1
 
-#### 25/07/2025 – OCR sur image (PNG)
+### 25/07/2025 – OCR sur image (PNG)
 
 - Script `extract_text.py` permettant d'extraire du texte depuis une image à l'aide de Tesseract OCR.
 - **Prérequis :**
@@ -10,6 +10,7 @@
   - Tesseract installé localement
   - Fichier `fra.traineddata` à placer dans `semaine_01_ocr_pdf/tessdata/`
 - **Installation des dépendances :**
+
   ```bash
   pip install pillow pytesseract
   ```
@@ -26,20 +27,20 @@
 
 Dédiée à la normalisation et au nettoyage des textes extraits via OCR.
 
-### Objectifs :
+### Objectifs
 
 - Supprimer les caractères spéciaux, accents, sauts de lignes, etc.
 - Corriger la casse (minuscules / majuscules)
 - Tokenisation de base pour les étapes NLP futures
 
-### Fichiers :
+### Fichiers
 
 - `semaine_02_preprocessing/clean_text.py` : script principal de nettoyage textuel
   -utilisation des 2 fichiers générés semaine_01 :
   - extract_text.txt (généré depuis une image)
   - extract_text_from_pdf (transformation pdf-->image puis traitement)
 
-### Lancement :
+### Lancement
 
 ```bash
 python semaine_02_preprocessing/clean_text.py
