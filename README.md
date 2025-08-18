@@ -40,8 +40,21 @@ Dédiée à la normalisation et au nettoyage des textes extraits via OCR.
   - extract_text.txt (généré depuis une image)
   - extract_text_from_pdf (transformation pdf-->image puis traitement)
 
+- 18/08/2025, tokénisation de base pour les futures étapes NLP avec le fichier preprocessing.py
+  - utilisation des fichiers de sortie générés par clean_text.py :
+    - `extracted_text.txt` --> `preprocessed_text_from_image.txt`
+    - `extracted_text_from_pdf.txt` --> `preprocessed_text_from_pdf.txt`
+
 ### Lancement
 
-```bash
-python semaine_02_preprocessing/clean_text.py
-```
+--> Pour générer les fichiers :
+
+  ```bash
+  python semaine_02_preprocessing/clean_text.py
+  ```
+
+--> pour tokénisation :
+
+  ```bash
+  python semaine_02_preprocessing/preprocessing.py
+  ```
