@@ -1,33 +1,33 @@
 # Formation OCR & NLP
 Programme de formation sur plusieurs semaines
-Semaine 1 – Bases OCR et extraction
+-Semaine 1 – Bases OCR et extraction
 Comprendre ce qu’est l’OCR et comment fonctionne l’extraction de texte depuis des images ou PDF.
 Pratique : extraire du texte brut à partir de fichiers PDF ou images avec Python.
 
-Semaine 2 – Nettoyage et prétraitement de texte
+-Semaine 2 – Nettoyage et prétraitement de texte
 Nettoyage des textes bruts : normalisation Unicode, suppression des caractères spéciaux, suppression des espaces et ponctuations superflues, mise en minuscules.
 Exercices pratiques avec la fonction clean_text().
 Introduction à spaCy pour tokenisation et lemmatisation.
 
-Semaine 3 – Prétraitement avancé avec spaCy
+-Semaine 3 – Prétraitement avancé avec spaCy
 Tokenisation avancée, suppression de stopwords, lemmatisation.
 Gestion multilingue (FR/EN).
 Exercices : produire des listes de tokens exploitables pour NLP.
 
-Semaine 4 – Extraction d’informations
+-Semaine 4 – Extraction d’informations
 Identifier les champs importants dans les documents (SIRET, TVA, montants, dates).
 Utilisation de regex et règles pour extraction automatique.
 Exercices : construire un dictionnaire clé → valeur pour chaque document.
 
-Semaine 5 – Structuration et stockage
+-Semaine 5 – Structuration et stockage
 Stocker les données extraites sous forme de JSON ou CSV.
 Vérification de la qualité des données extraites.
 Exercices : sauvegarde et relecture des données structurées.
 
-Semaine 6 – Analyse NLP ou apprentissage automatique (optionnel)
+-Semaine 6 – Analyse NLP ou apprentissage automatique (optionnel)
 Transformer les textes en vecteurs (TF-IDF, embeddings).
 
-Premiers modèles simples de classification ou clustering.
+-Premiers modèles simples de classification ou clustering.
 Exercices : analyse exploratoire et visualisation des données textuelles.
 
 ## SEMAINE 1
