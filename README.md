@@ -1,5 +1,5 @@
 # Formation OCR & NLP
-<!-- Programme de formation sur plusieurs semaines
+Programme de formation sur plusieurs semaines
 Semaine 1 – Bases OCR et extraction
 Comprendre ce qu’est l’OCR et comment fonctionne l’extraction de texte depuis des images ou PDF.
 Pratique : extraire du texte brut à partir de fichiers PDF ou images avec Python.
@@ -28,7 +28,8 @@ Semaine 6 – Analyse NLP ou apprentissage automatique (optionnel)
 Transformer les textes en vecteurs (TF-IDF, embeddings).
 
 Premiers modèles simples de classification ou clustering.
-Exercices : analyse exploratoire et visualisation des données textuelles. -->
+Exercices : analyse exploratoire et visualisation des données textuelles.
+
 ## SEMAINE 1
 
 ### 25/07/2025 – OCR sur image (PNG)
