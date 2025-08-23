@@ -32,9 +32,7 @@ Transformer les textes en vecteurs (TF-IDF, embeddings).
 -Premiers modèles simples de classification ou clustering.
 Exercices : analyse exploratoire et visualisation des données textuelles.
 
-## SEMAINE 1
-
-### 25/07/2025 – OCR sur image (PNG)
+## 25/07/2025 – OCR sur image (PNG)
 
 - Script `extract_text.py` permettant d'extraire du texte depuis une image à l'aide de Tesseract OCR.
 - **Prérequis :**
@@ -47,15 +45,13 @@ Exercices : analyse exploratoire et visualisation des données textuelles.
   pip install pillow pytesseract
   ```
 
-#### 26/07/2025 – OCR depuis un PDF
+## 26/07/2025 – OCR depuis un PDF
 
 - Extraction de texte depuis des fichiers PDF (via `extract_text_from_pdf.py` + `pdf2image`)
 - Tesseract installé localement
 - Fichier `fra.traineddata` à placer dans `semaine_01_ocr_pdf/tessdata/`
 
-### SEMAINE 2
-
-#### 27/07/2025 – Prétraitement du texte OCRisé
+## 27/07/2025 – Prétraitement du texte OCRisé
 
 Dédiée à la normalisation et au nettoyage des textes extraits via OCR.
 
