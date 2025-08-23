@@ -1,4 +1,5 @@
 # Formation OCR & NLP
+
 Programme de formation sur plusieurs semaines
 -Semaine 1 – Bases OCR et extraction
 Comprendre ce qu’est l’OCR et comment fonctionne l’extraction de texte depuis des images ou PDF.
